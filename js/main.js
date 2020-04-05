@@ -254,7 +254,7 @@ function Covid19DailyCases(dataValues) {
 					pointHoverBackgroundColor: 'rgb(231, 76, 60,1)',
 					pointHoverBorderColor: 'rgb(231, 76, 60,1)',
 					pointHitRadius: 10,
-					pointBorderWidth: 2,
+					pointBorderWidth: 0.1,
 					data: dataValues.confirmed
 				},
 				{
@@ -269,7 +269,7 @@ function Covid19DailyCases(dataValues) {
 					pointHoverBackgroundColor: 'rgb(46, 204, 113, 1)',
 					pointHoverBorderColor: 'rgb(46, 204, 113, 1)',
 					pointHitRadius: 10,
-					pointBorderWidth: 2,
+					pointBorderWidth: 0.1,
 					data: dataValues.recovered
 				},
 				{
@@ -284,7 +284,7 @@ function Covid19DailyCases(dataValues) {
 					pointHoverBackgroundColor: 'rgb(127, 140, 141, 1)',
 					pointHoverBorderColor: 'rgb(127, 140, 141, 1)',
 					pointHitRadius: 10,
-					pointBorderWidth: 2,
+					pointBorderWidth: 0.1,
 					data: dataValues.deaths
 				}
 			]
