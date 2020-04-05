@@ -78,8 +78,11 @@ function getStateWiseStats(apiUrl) {
 			});
 			$('#tblBody_covid19StateWiseStats').html(htmlBody);
 			$('#tblFooter_covid19StateWiseStats').html(htmlFooter);
+			// India Map Data
 			Covid19IndiaMap(mapData);
+			// Today's Spread
 			Covid19DailyDelta(dailyDelta);
+			// Daily Spread
 			Covid19DailyCases(dailycases);
 		}
 	});
